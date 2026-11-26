@@ -72,9 +72,9 @@
           <p>Все данные вымышленные и не сохраняются.</p>
           <form action="club.html" method="get">
             <p>
-                <label for="student">Учебное имя</label>
+                <label for="student">Назови своё имя бой-кун</label>
                 <input id="student" name="student" type="text"
-                minlength="2" required>
+                minlength="2" maxlength="20" required>
             </p>
             <p>
                 <label for="email">Почта</label>
@@ -84,7 +84,7 @@
             <p>
                 <label for="phone">Телефон из 11 цифр</label>
                 <input id="phone" name="phone" type="tel"
-                pattern="[0-9]{11}" required 
+                pattern="[0-9]{11}" value="8" required 
                 aria-describedby="phone-help">
                 <small id="phone-help">без пробелов и знака плюс</small>
             </p>
@@ -100,6 +100,9 @@
         <p><input id="online" type="radio" name="format"
             value="online">
         <label for="online">Дистaнционно</label></p> 
+        <p><input id="gibrid" type="radio" name="format"
+            value="gibrid">
+        <label for="gibrid">Гибрид(и то и то)</label></p> 
     </fieldset>
     <p>
         <label for="topic">Нaправление</label>
@@ -123,6 +126,7 @@
     <button type="submit">Отправить учебный пример</button>
     <button type="reset">Сбросить поля</button>
         </form>
+        <img src="img/anime.jpg" alt="фотография: ну чо пацаны аниме?" width="400">
       </main>
 </body>
 </html>

@@ -28,7 +28,7 @@
         <p>
             <label for="student">Учебное имя</label>
             <input id="student" name="student" type="text"
-            minlength="2" required>
+            minlength="2" maxlength="20" required>
         </p>
         <p>
             <label for="email">Почта</label>
@@ -38,7 +38,7 @@
         <p>
             <label for="phone">Телефон из 11 цифр</label>
             <input id="phone" name="phone" type="tel"
-            pattern="[0-9]{11}" required 
+            pattern="[0-9]{11}" required value="8" 
             aria-describedby="phone-help">
             <small id="phone-help">без пробелов и знака плюс</small>
         </p>
