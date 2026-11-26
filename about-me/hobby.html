@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Наши увлечения - Чернова Вера и Миридонов Александр</title>
   </head>
   <body>
-    <nav>
-      <ul>
+    <header>
+      <p>Учебный сайт студентов группы ИС-2К-25</p>
+      <nav aria-label="Главное меню">
+        <ul>
           <li><a href="index.html">О нас</a></li>
           <li><a href="hobby.html">Наши увлечения</a></li>
           <li><a href="college.html">Наш колледж</a></li>
           <li><a href="season.html">Любимое время года</a></li>
           <li><a href="samost.html">Зима</a></li>
           <li><a href="schedule.html">Расписание</a></li>
+          <li><a href="application.html">Запись на занятие</a></li>
+          <li><a href="club.html">Клуб по интересам</a></li>
       </ul>
-  </nav>
+      </nav>
+    </header>
+  <main>
     <h1>Наши увлечения</h1>
     <figure>
         <img src="img/hobby.jpg" alt="Наше хобби" width="250">
         <figcaption>рис. 1. Наше любимое увлечение</figcaption>
     </figure>
+    <section aria-labelledby="hobby">
     <h2>Чем мы любим заниматься</h2>
     <ul>
-      <li>1. Играть в игры</li>
+      <li>1. Играть в игры
         <ul>
             <li>1.1 Peak</li>
             <li>1.2 REPO</li>
@@ -32,12 +39,16 @@
       <li>2. Смотреть аниме</li>
       <li>3. Гладить китиков</li>
     </ul>
+  </section>
+  <section aria-labelledby="anime">
     <h2>Наши топ 3 аниме сначало Веры, потом Саши через запятую</h2>
     <ol>
       <li>Эта фарфоровая кукла влюбилась, Врата Штейна</li>
       <li>Хоримия, Атака Титанов</li>
       <li>Благословение небожителей, Мастера меча онлайн</li>
     </ol>
+  </section>
+  <section aria-labelledby="study">
     <h2>Что мы изучаем на практике</h2>
     <ul>
       <li>
@@ -62,6 +73,8 @@
         </ul>
       </li>
     </ul>
+  </section>
+  <section aria-labelledby="link">
     <h2>Полезные ссылки</h2>
     <ul>
         <li><a href="https://www.twitch.tv" target="_blank"
@@ -69,5 +82,10 @@
         <li><a href="https://chetk.info/" target="_blank" rel="noopener noreferrer">Сайт колледжа</a></li>
         <li><a href="catswiq1@gmail.com">Написать мне письмо</a></li>
         </ul>
+  </section>
+    </main>
+    <footer>
+      <p>Автор: Чернова Вера и Миридонов Александр. Учебная парктика УП.09</p>
+    </footer>
   </body>
 </html>
