@@ -1,17 +1,5 @@
-body {
-    color: #243142;
-    background-color: #bdece6;
-}
-
-p {
-    color: #333333
-}
-
-h1, h2 {color: blue;}
-.site-note {
-    font-style: italic;
-}
-
+/* Палитра: фон #ffe4c4, текст #b400b4, 
+заголовки #5e3909, #854b00; ссылки #ff0b0b, акцент #ff009d */ 
 #top {
     letter-spacing: 0.03em;
 }
@@ -29,7 +17,7 @@ nav a:hover {
 }
 
 .page-footer p {
-    color: rgb(255, 0, 157);
+    color: #ff009d;
 }
 
 .external-link {
@@ -42,4 +30,53 @@ a { color: green}
 .main-nav a:focus {
     outline: 2px solid #17365d;
     outline-offset: 3px;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffe4c4;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b400b4;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+    color: #5e3909;
+}
+h2 {
+    font-size: 1,5rem;
+    line-height: 1.3;
+    color: #854b00;
+}
+p, li {
+    max-width: 70ch;
+}
+a {
+   color: #0B5CAB;
+   text-decoration-thickness: 0.08EM;
+   text-underline-offset: 0.15em; 
+}
+a:visited {color: #5c3f8c;}
+a:hover {color: #8a2c2c;}
+a:focus-visible {
+    outline: 3px solid #D08A00;
+    outline-offset: 3PX;
+}
+.cap {
+    color: chocolate;
+    font-size: 2rem;
+}
+.leg {
+    color:rgb(104, 94, 1);
+    font-size: 2,5rem;
+}
+.figvam {
+    color:#0B5CAB;
+    font-size: 0,8rem;
+}
+.lead {
+    font-size: 1.125rem;
 }
