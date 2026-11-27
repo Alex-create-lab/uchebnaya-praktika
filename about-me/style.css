@@ -1,0 +1,45 @@
+body {
+    color: #243142;
+    background-color: #bdece6;
+}
+
+p {
+    color: #333333
+}
+
+h1, h2 {color: blue;}
+.site-note {
+    font-style: italic;
+}
+
+#top {
+    letter-spacing: 0.03em;
+}
+
+.main-nav a {
+    color: #ff0b0b;
+}
+
+nav a:hover {
+    color: #2c8a2c;
+}
+
+.page-footer {
+    color: #2c8a2c;
+}
+
+.page-footer p {
+    color: rgb(255, 0, 157);
+}
+
+.external-link {
+    color: hotpink;
+}
+a { color: green}
+#news {color: rgb(255, 2, 213);}
+.idk {color: tomato;}
+
+.main-nav a:focus {
+    outline: 2px solid #17365d;
+    outline-offset: 3px;
+}
